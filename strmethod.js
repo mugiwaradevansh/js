@@ -13,4 +13,15 @@ console.log(gameName.length)
 console.log(gameName.__proto__)
 console.log(gameName.toUpperCase());
 console.log(gameName.charAt(2));
-console.log(gameName.indexOf("s"));
+console.log(gameName.indexOf("d"));
+console.log(gameName.includes("d"));
+ const newstring =("         devansh            ")
+ console.log(newstring.trim());
+// console.log(newstring);
+const url = "https://hitesh.com/hitesh%20choudhary"
+
+console.log(url.replace('%20', '-'))
+
+console.log(url.includes('sundar'))
+
+console.log(gameName.split('-'));
